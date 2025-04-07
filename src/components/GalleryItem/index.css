@@ -1,0 +1,28 @@
+.item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+button.active {
+  border-bottom: 2px solid blue;
+  opacity: 1;
+  transform: scale(1.1);
+  background-color: transparent;
+}
+
+.image {
+  height: 50px;
+  width: 55px;
+}
